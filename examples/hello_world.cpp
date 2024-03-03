@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 #include <iostream> // in and out stream
 #include <string> // string library
 int
 main (int argc, char **argv)
+=======
+#include <iostream>// libraries
+#include <string>
+int main(int argc, char** argv)
+>>>>>>> 8c2b180 (Deleted some comments)
 {
   std::string name; // variable name
   std::cout << "Enter your name:";
