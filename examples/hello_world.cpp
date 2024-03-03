@@ -1,5 +1,5 @@
-#include <iostream>
-#include <string>
+#include <iostream> // in and out stream
+#include <string> // string library
 int main(int argc, char** argv)
 {
 	std::string name; // name variable
