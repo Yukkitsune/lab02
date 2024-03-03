@@ -1,11 +1,10 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include <iostream> // in and out stream
+#include <string> // string library
 int main(int argc, char** argv)
 {
-	string name;
-	cout<<"Enter your name:";
-	cin >> name;
-	cout<<"Hello world from "<<name<<endl;
+	std::string name; // name variable
+	std::cout<<"Enter your name:";
+	std::cin >> name; // input name
+	std::cout<<"Hello world from "<<name<<std::endl;
 	return 0;
 }
